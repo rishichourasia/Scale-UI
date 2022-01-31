@@ -11,9 +11,10 @@ html {
 	box-sizing: border-box;
 }
 
-.container {
+.container-badge {
 	margin: 20px;
 	display: flex;
+	align-items: center;
 }
 
 .badge {
@@ -85,4 +86,29 @@ html {
 }
 .hidden {
 	display: none;
+}
+
+.avatar {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 7px;
+}
+
+.badge-avatar {
+	top: 15.7rem;
+	left: 14.4rem;
+}
+.online {
+	top: 23rem;
+	left: 14.1rem;
+	background-color: rgb(78, 175, 78);
+	border: 3px solid white;
+}
+
+.offline {
+	top: 28.2rem;
+	left: 14.1rem;
+	background-color: rgb(184, 66, 57);
+	border: 3px solid white;
 }
