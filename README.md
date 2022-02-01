@@ -1,2 +1,2 @@
-# Hexa-UI
-This is Hexa UI.
+# Scale-UI
+This is Scale UI.
