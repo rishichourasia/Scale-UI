@@ -86,5 +86,13 @@
 				<span class="badge offline"></span>
 			</div>
 		</div>
+		<script>
+			const toggle = document.querySelector(".toggle-btn");
+			const icon = document.querySelector(".right");
+
+			toggle.addEventListener("click", () => {
+				icon.classList.toggle("hidden");
+			});
+		</script>
 	</body>
 </html>
