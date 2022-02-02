@@ -11,82 +11,135 @@
 			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="/Styles/style.css" />
+		<link rel="stylesheet" href="/Styles/navbar.css" />
+		<link rel="stylesheet" href="/Styles/sidebar.css" />
 		<link rel="stylesheet" href="badge.css" />
 	</head>
 	<body>
 		<!-- navbar content  -->
-
+		<nav>
+			<div class="logo">
+				<a href="/index.html"
+					><img src="/assets/logo/scale logo with text.svg" alt="svg-logo"
+				/></a>
+			</div>
+			<div class="nav-contents">
+				<div class="nav-content">
+					<a href="/Components/installation.html">Documentation</a>
+				</div>
+			</div>
+		</nav>
 		<!-- navbar content  -->
 
 		<!-- side bar content  -->
-
+		<aside>
+			<div class="sidebar">
+				<div class="sidebar-installation">
+					<div class="sidebar-title">
+						<p>Getting Started</p>
+					</div>
+					<div class="sidebar-list">
+						<p>Usage</p>
+					</div>
+				</div>
+				<div class="sidebar-components">
+					<div class="sidebar-title">
+						<p>Components</p>
+					</div>
+					<ul class="sidebar-list">
+						<li class="component-link">
+							<a href="../Avatar/avatar.html">Avatar</a>
+						</li>
+						<li class="component-link">
+							<a href="../Alert/alert.html">Alert</a>
+						</li>
+						<li class="component-link">
+							<a href="../Badge/badge.html">Badge</a>
+						</li>
+						<li class="component-link">
+							<a href="../Buttons/button.html">Button</a>
+						</li>
+						<li class="component-link"><a href=".">Card</a></li>
+						<li class="component-link"><a href=".">Images</a></li>
+						<li class="component-link"><a href=".">Input</a></li>
+						<!-- <li class="component-link"><a href="."></a></li> -->
+					</ul>
+				</div>
+			</div>
+		</aside>
 		<!-- side bar content  -->
 
-		<div class="container-badge">
-			<div class="text">
-				<h3>Text with badge</h3>
+		<!-- main content  -->
+		<main>
+			<h2>Badge</h2>
+			<p>(Docs in progress)</p>
+			<div class="container-badge">
+				<div class="text">
+					<h4>Text with badge</h4>
+				</div>
+				<div class="badge badge-text"><p>1</p></div>
 			</div>
-			<div class="badge"><p>1</p></div>
-		</div>
-		<div class="container-badge">
-			<h3>Text with large badge</h3>
-			<div class="badge large"><span>2</span></div>
-		</div>
-		<div class="container-badge">
-			<h3>Button with a badge on the left</h3>
-			<div class="btn">
-				<button>Badge</button>
-				<span class="badge left">3</span>
+			<div class="container-badge">
+				<h4>Text with large badge</h4>
+				<div class="badge large"><span>2</span></div>
 			</div>
-		</div>
-		<div class="container-badge">
-			<h3>Button toggles badge visibility</h3>
-			<div class="toggle">
-				<button class="toggle-btn">Toggle</button>
-				<span class="badge right">4</span>
+			<div class="container-badge">
+				<h4>Button with a badge on the left</h4>
+				<div class="btn">
+					<button>Badge</button>
+					<span class="badge left">3</span>
+				</div>
 			</div>
-		</div>
-		<div class="container-badge">
-			<h3>Icon with badge</h3>
-			<div class="toggle">
-				<i class="fas fa-phone fa-lg"></i>
-				<span class="badge icon">5</span>
+			<div class="container-badge">
+				<h4>Button toggles badge visibility</h4>
+				<div class="toggle">
+					<button class="toggle-btn">Toggle</button>
+					<span class="badge right">4</span>
+				</div>
 			</div>
-		</div>
-		<div class="container-badge">
-			<h3>Avatar with badge</h3>
-			<div class="toggle">
-				<img
-					class="avatar"
-					src="/assets/Avatar imgs/avatar img-1.png"
-					alt="avatar-img"
-				/>
-				<p class="badge badge-avatar">6</p>
+			<div class="container-badge">
+				<h4>Icon with badge</h4>
+				<div class="toggle">
+					<i class="fas fa-phone fa-lg"></i>
+					<span class="badge icon">5</span>
+				</div>
 			</div>
-		</div>
-		<div class="container-badge">
-			<h3>Avatar with badge</h3>
-			<div class="toggle">
-				<img
-					class="avatar"
-					src="/assets/Avatar imgs/avatar img-1.png"
-					alt="avatar-img"
-				/>
-				<span class="badge online"></span>
+			<div class="container-badge">
+				<h4>Avatar with badge</h4>
+				<div class="toggle">
+					<img
+						class="avatar"
+						src="/assets/Avatar imgs/avatar img-1.png"
+						alt="avatar-img"
+					/>
+					<p class="badge badge-avatar">6</p>
+				</div>
 			</div>
-		</div>
-		<div class="container-badge">
-			<h3>Avatar with badge</h3>
-			<div class="toggle">
-				<img
-					class="avatar"
-					src="/assets/Avatar imgs/avatar img-1.png"
-					alt="avatar-img"
-				/>
-				<span class="badge offline"></span>
+			<div class="container-badge">
+				<h4>Avatar with badge</h4>
+				<div class="toggle">
+					<img
+						class="avatar"
+						src="/assets/Avatar imgs/avatar img-1.png"
+						alt="avatar-img"
+					/>
+					<span class="badge online"></span>
+				</div>
 			</div>
-		</div>
-		<a href="../Alert/alert.html">Alert</a>
+			<div class="container-badge">
+				<h4>Avatar with badge</h4>
+				<div class="toggle">
+					<img
+						class="avatar"
+						src="/assets/Avatar imgs/avatar img-1.png"
+						alt="avatar-img"
+					/>
+					<span class="badge offline"></span>
+				</div>
+			</div>
+		</main>
+		<!-- main content  -->
 		<script>
 			const toggle = document.querySelector(".toggle-btn");
 			const icon = document.querySelector(".right");

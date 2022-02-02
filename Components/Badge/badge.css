@@ -1,20 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
-html {
-	background-color: rgb(240, 240, 240);
-	font-family: "Open Sans", sans-serif;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 .container-badge {
 	margin: 20px;
 	display: flex;
 	align-items: center;
+	position: relative;
+}
+
+.container-badge h4 {
+	font-weight: 500;
 }
 
 .badge {
@@ -25,16 +17,18 @@ html {
 	font-size: 13px;
 	color: white;
 	position: absolute;
-	left: 157px;
-	top: 15px;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
 }
 
+.badge-text {
+	left: 7.2rem;
+	top: -0.5rem;
+}
 .large {
-	left: 205px;
-	top: 58px;
+	left: 10rem;
+	top: -0.6rem;
 	width: 24px;
 	height: 24px;
 	font-size: 16px;
@@ -56,8 +50,8 @@ html {
 }
 
 .left {
-	left: 295px;
-	top: 98px;
+	left: 19rem;
+	top: -0.5rem;
 }
 
 .toggle {
@@ -76,13 +70,13 @@ html {
 }
 
 .right {
-	left: 353px;
-	top: 150px;
+	left: 18.5rem;
+	top: -0.5rem;
 }
 
 .icon {
-	left: 195px;
-	top: 192px;
+	left: 10rem;
+	top: -1rem;
 }
 .hidden {
 	display: none;
@@ -96,19 +90,19 @@ html {
 }
 
 .badge-avatar {
-	top: 15.7rem;
-	left: 14.4rem;
+	top: 0rem;
+	left: 12rem;
 }
 .online {
-	top: 23rem;
-	left: 14.1rem;
+	top: 2.2rem;
+	left: 11.8rem;
 	background-color: rgb(78, 175, 78);
 	border: 3px solid white;
 }
 
 .offline {
-	top: 28.2rem;
-	left: 14.1rem;
+	top: 2.3rem;
+	left: 11.8rem;
 	background-color: rgb(184, 66, 57);
 	border: 3px solid white;
 }

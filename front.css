@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html {
+	background-color: rgb(245, 245, 245);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	position: relative;
+}
+
+.front-container {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+	height: 450px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.heading {
+	display: flex;
+	justify-content: center;
+}
+
+.heading-text {
+	display: flex;
+	width: 70%;
+	text-align: center;
+}
+
+.heading-text p {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.7rem;
+	letter-spacing: -1.1px;
+}
+
+.heading-btn {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-right: 5px;
+}
+
+.heading-btn button {
+	border: none;
+	background-color: transparent;
+	font-size: 1.1rem;
+	font-weight: 600;
+	letter-spacing: -1px;
+	cursor: pointer;
+	border: 2px solid rgb(41, 41, 41);
+	border-radius: 5px;
+	padding: 7px 20px;
+}
+.heading-btn a:nth-child(1) button {
+	background-color: rgb(46, 46, 46);
+	color: white;
+}
+.heading-btn a:nth-child(2) button {
+	background-color: transparent;
+}
+.heading-btn a:nth-child(2) button:hover {
+	background-color: rgb(46, 46, 46);
+	color: white;
+}
