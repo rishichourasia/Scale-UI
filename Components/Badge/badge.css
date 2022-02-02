@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html {
+	background-color: rgb(240, 240, 240);
+	font-family: "Open Sans", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container-badge {
+	margin: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.badge {
+	width: 18px;
+	height: 18px;
+	background-color: rgb(110, 12, 202);
+	border-radius: 50%;
+	font-size: 13px;
+	color: white;
+	position: absolute;
+	left: 157px;
+	top: 15px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.large {
+	left: 205px;
+	top: 58px;
+	width: 24px;
+	height: 24px;
+	font-size: 16px;
+}
+
+.btn {
+	margin-left: 15px;
+}
+
+.btn button {
+	border: none;
+	background-color: rgb(172, 84, 253);
+	color: white;
+	padding: 5px 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.left {
+	left: 295px;
+	top: 98px;
+}
+
+.toggle {
+	margin-left: 15px;
+}
+
+.toggle button {
+	border: none;
+	background-color: violet;
+	color: white;
+	padding: 5px 10px;
+	border: 1px solid rgb(228, 227, 227);
+	border-radius: 5px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.right {
+	left: 353px;
+	top: 150px;
+}
+
+.icon {
+	left: 195px;
+	top: 192px;
+}
+.hidden {
+	display: none;
+}
+
+.avatar {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 7px;
+}
+
+.badge-avatar {
+	top: 15.7rem;
+	left: 14.4rem;
+}
+.online {
+	top: 23rem;
+	left: 14.1rem;
+	background-color: rgb(78, 175, 78);
+	border: 3px solid white;
+}
+
+.offline {
+	top: 28.2rem;
+	left: 14.1rem;
+	background-color: rgb(184, 66, 57);
+	border: 3px solid white;
+}
