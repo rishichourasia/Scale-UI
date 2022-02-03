@@ -9,6 +9,7 @@ nav {
 	z-index: 1;
 	left: 5rem;
 	top: 0;
+	background-color: rgb(245, 245, 245);
 }
 
 .nav-contents a {
