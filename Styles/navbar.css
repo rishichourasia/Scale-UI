@@ -1,0 +1,33 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	left: 5rem;
+	top: 0;
+}
+
+.nav-contents a {
+	text-decoration: none;
+	color: rgb(80, 80, 80);
+	font-size: 18px;
+}
+
+.logo {
+	width: 180px;
+}
+.logo img {
+	width: 100%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin-top: 7.8rem;
+	margin-left: 23rem;
+	width: 60%;
+}

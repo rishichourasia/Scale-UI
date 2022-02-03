@@ -5,88 +5,139 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Avatar</title>
-
+		<link rel="stylesheet" href="/Styles/style.css" />
+		<link rel="stylesheet" href="/Styles/navbar.css" />
+		<link rel="stylesheet" href="/Styles/sidebar.css" />
 		<link rel="stylesheet" href="avatar.css" />
 	</head>
 	<body>
 		<!-- navbar content  -->
-
+		<nav>
+			<div class="logo">
+				<a href="/index.html"
+					><img src="/assets/logo/scale logo with text.svg" alt="svg-logo"
+				/></a>
+			</div>
+			<div class="nav-contents">
+				<div class="nav-content">
+					<a href="/Components/installation.html">Documentation</a>
+				</div>
+			</div>
+		</nav>
 		<!-- navbar content  -->
 
 		<!-- side bar content  -->
-
+		<aside>
+			<div class="sidebar">
+				<div class="sidebar-installation">
+					<div class="sidebar-title">
+						<p>Getting Started</p>
+					</div>
+					<div class="sidebar-list">
+						<p>Usage</p>
+					</div>
+				</div>
+				<div class="sidebar-components">
+					<div class="sidebar-title">
+						<p>Components</p>
+					</div>
+					<ul class="sidebar-list">
+						<li class="component-link">
+							<a href="../Avatar/avatar.html">Avatar</a>
+						</li>
+						<li class="component-link">
+							<a href="../Alert/alert.html">Alert</a>
+						</li>
+						<li class="component-link">
+							<a href="../Badge/badge.html">Badge</a>
+						</li>
+						<li class="component-link">
+							<a href="../Buttons/button.html">Button</a>
+						</li>
+						<li class="component-link"><a href=".">Card</a></li>
+						<li class="component-link"><a href=".">Images</a></li>
+						<li class="component-link"><a href=".">Input</a></li>
+						<!-- <li class="component-link"><a href="."></a></li> -->
+					</ul>
+				</div>
+			</div>
+		</aside>
 		<!-- side bar content  -->
+		<main>
+			<h2>Avatar</h2>
+			<p>(Docs in progress)</p>
 
-		<div class="container">
-			<div class="profile-avatar">
-				<h2>Profile Avatar</h2>
-				<h5>Standard Size</h5>
-				<div class="avatar-box">
-					<img
-						class="avatar"
-						src="/assets/Avatar imgs/avatar img-1.png"
-						alt="avatar-img"
-					/>
-					<img
-						class="avatar"
-						src="/assets/Avatar imgs/img_avatar-2.png"
-						alt="avatar-img"
-					/>
-					<img
-						class="avatar"
-						src="/assets/Avatar imgs/avatar img-1.png"
-						alt="avatar-img"
-					/>
+			<div class="container">
+				<div class="profile-avatar">
+					<h3>Profile Avatar</h3>
+					<p>Standard Size</p>
+					<div class="avatar-box">
+						<img
+							class="avatar"
+							src="/assets/Avatar imgs/avatar img-1.png"
+							alt="avatar-img"
+						/>
+						<img
+							class="avatar"
+							src="/assets/Avatar imgs/img_avatar-2.png"
+							alt="avatar-img"
+						/>
+						<img
+							class="avatar"
+							src="/assets/Avatar imgs/avatar img-1.png"
+							alt="avatar-img"
+						/>
+					</div>
+				</div>
+				<div class="size-avatar">
+					<h3>Sizes Avatar</h3>
+					<p>
+						Size of the avatars can be changed by adding sm | md | lg class to
+						the existing avatar class.
+					</p>
+					<div class="avatar-box">
+						<img
+							class="avatar sm"
+							src="/assets/Avatar imgs/avatar img-1.png"
+							alt="avatar-img"
+						/>
+						<img
+							class="avatar md"
+							src="/assets/Avatar imgs/img_avatar-2.png"
+							alt="avatar-img"
+						/>
+						<img
+							class="avatar lg"
+							src="/assets/Avatar imgs/avatar img-1.png"
+							alt="avatar-img"
+						/>
+					</div>
+				</div>
+				<div class="square-avatar">
+					<h3>Square Avatar</h3>
+					<p>
+						Adding a class 'square' to existing class, will generate a square
+						shaped avatar.
+					</p>
+					<div class="avatar-box">
+						<img
+							class="avatar square sm"
+							src="/assets/Avatar imgs/avatar img-1.png"
+							alt="avatar-img"
+						/>
+						<img
+							class="avatar square md"
+							src="/assets/Avatar imgs/img_avatar-2.png"
+							alt="avatar-img"
+						/>
+						<img
+							class="avatar square lg"
+							src="/assets/Avatar imgs/avatar img-1.png"
+							alt="avatar-img"
+						/>
+					</div>
 				</div>
 			</div>
-			<div class="size-avatar">
-				<h2>Sizes Avatar</h2>
-				<h5>
-					Size of the avatars can be changed by adding sm | md | lg class to the
-					existing avatar class.
-				</h5>
-				<div class="avatar-box">
-					<img
-						class="avatar sm"
-						src="/assets/Avatar imgs/avatar img-1.png"
-						alt="avatar-img"
-					/>
-					<img
-						class="avatar md"
-						src="/assets/Avatar imgs/img_avatar-2.png"
-						alt="avatar-img"
-					/>
-					<img
-						class="avatar lg"
-						src="/assets/Avatar imgs/avatar img-1.png"
-						alt="avatar-img"
-					/>
-				</div>
-			</div>
-			<div class="square-avatar">
-				<h2>Square Avatar</h2>
-				<h5>
-					Adding a class 'square' to existing class, will generate a square
-					shaped avatar.
-				</h5>
-				<div class="avatar-box">
-					<img
-						class="avatar square sm"
-						src="/assets/Avatar imgs/avatar img-1.png"
-						alt="avatar-img"
-					/>
-					<img
-						class="avatar square md"
-						src="/assets/Avatar imgs/img_avatar-2.png"
-						alt="avatar-img"
-					/>
-					<img
-						class="avatar square lg"
-						src="/assets/Avatar imgs/avatar img-1.png"
-						alt="avatar-img"
-					/>
-				</div>
-			</div>
-		</div>
+		</main>
 	</body>
 </html>
