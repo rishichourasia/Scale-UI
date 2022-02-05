@@ -1,0 +1,42 @@
+.container {
+	width: 80%;
+	margin-top: 15px;
+}
+
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+}
+
+.round-img-container {
+	width: 700px;
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+/* component css */
+.res-img-container {
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	max-width: 50vw;
+	border: 0.5px solid rgb(201, 201, 201);
+}
+
+.res-img {
+	width: 100%;
+}
+
+.round-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.square-img {
+	height: 150px;
+	width: 150px;
+	border-radius: 4px;
+}

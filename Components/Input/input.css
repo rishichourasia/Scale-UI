@@ -1,0 +1,52 @@
+.container {
+	width: 40%;
+	margin-top: 15px;
+}
+
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+}
+
+.input-continer {
+	padding: 15px;
+	margin-top: 15px;
+	background-color: rgb(235, 235, 235);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* component css  */
+.input-div {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-div label {
+	font-size: 14px;
+	color: rgb(95, 95, 95);
+}
+
+.input {
+	width: 100%;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 1rem;
+	border: thin solid rgb(192, 192, 192);
+}
+
+.err label {
+	color: red;
+}
+.error {
+	border: thin solid red;
+}
+
+.error-msg {
+	color: red;
+	font-size: 12px;
+	margin-top: -8px;
+}

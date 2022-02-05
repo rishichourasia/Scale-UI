@@ -1,0 +1,130 @@
+.container {
+	width: 90%;
+	margin-top: 15px;
+}
+
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+}
+
+.card-container {
+	padding: 15px;
+	margin-top: 15px;
+	background-color: rgb(235, 235, 235);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	display: flex;
+	width: 100%;
+}
+
+/* component css  */
+
+.card {
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	background-color: rgb(255, 255, 255);
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	border: 1px solid rgb(214, 214, 214);
+	border-radius: 3%;
+	margin: 30px;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card h1 {
+	font-size: 1.3rem;
+	font-weight: 550;
+}
+.card h5 {
+	color: grey;
+	font-weight: 500;
+}
+
+.card-container p {
+	color: grey;
+	font-size: 14px;
+}
+.card-title {
+	margin: 10px 0 10px 10px;
+	display: flex;
+	align-items: center;
+}
+
+.title-icon {
+	margin-left: auto;
+	margin-right: 7px;
+}
+
+.card-text {
+	margin: 10px;
+	margin-top: 20px;
+}
+
+bottom {
+	display: flex;
+	margin: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bottom-btn {
+	display: flex;
+	gap: 15px;
+}
+.bottom-icon {
+	display: flex;
+	gap: 25px;
+}
+.card-btn {
+	border: none;
+	background-color: transparent;
+	font-size: 15px;
+	color: blueviolet;
+	cursor: pointer;
+	padding: 5px;
+}
+.card-btn:hover {
+	background-color: rgb(242, 230, 253);
+}
+.icon-hover {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.icon-hover:hover {
+	background-color: rgb(197, 197, 197);
+}
+.img-title {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.overlay {
+	flex-direction: column;
+}
+.overtext {
+	position: absolute;
+	color: white;
+	top: 7rem;
+}
+.height-fit {
+	position: relative;
+	height: fit-content;
+}
+.side {
+	display: flex;
+	flex-direction: row;
+}
+
+.side img {
+	width: 30%;
+}
+/* component css  */

@@ -11,20 +11,23 @@ html {
 	font-family: "Open Sans", sans-serif;
 }
 
-nav {
-	position: relative;
-}
-
 .front-container {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
 	margin: auto;
+	margin-top: 10rem;
 	height: 450px;
 	align-items: center;
 	justify-content: space-evenly;
 }
+.front-logo {
+	width: 18%;
+}
 
+.front-logo img {
+	width: 100%;
+}
 .heading {
 	display: flex;
 	justify-content: center;
