@@ -21,7 +21,13 @@ html {
 	align-items: center;
 	justify-content: space-evenly;
 }
+.front-logo {
+	width: 18%;
+}
 
+.front-logo img {
+	width: 100%;
+}
 .heading {
 	display: flex;
 	justify-content: center;
