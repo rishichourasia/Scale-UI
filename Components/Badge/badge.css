@@ -1,5 +1,5 @@
 .container-badge {
-	margin: 20px;
+	margin: 12px;
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -7,6 +7,12 @@
 
 .container-badge h4 {
 	font-weight: 500;
+}
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+	margin-top: 10px;
 }
 
 .badge {
