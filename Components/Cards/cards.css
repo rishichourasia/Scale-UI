@@ -12,9 +12,9 @@
 .card-container {
 	padding: 15px;
 	margin-top: 15px;
-	background-color: rgb(235, 235, 235);
+	/* background-color: rgb(235, 235, 235); */
 	border-radius: 5px;
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	/* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
 	display: flex;
 	width: 100%;
 }
