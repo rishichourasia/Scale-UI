@@ -63,3 +63,7 @@ aside a {
 .sidebar-list p:hover {
 	background-color: rgb(223, 222, 222);
 }
+
+.code-snippet {
+	margin: 20px 0 20px 0;
+}
