@@ -82,7 +82,10 @@
 		<!-- main content  -->
 		<main>
 			<h2>Alert</h2>
-			<p>(Docs in progress)</p>
+			<p>
+				The alert component has four variants alert-success, alert-danger,
+				alert-warning and alert-primary.
+			</p>
 			<div class="container">
 				<p class="container-title">Solid Alert</p>
 				<div class="alert alert-primary">
@@ -105,9 +108,24 @@
 						<strong>Danger!</strong> This is a Danger Alert
 					</div>
 				</div>
+				<div class="code-snippet">
+					<iframe
+						src="https://carbon.now.sh/embed?bg=rgba%28245%2C245%2C245%2C0%29&t=one-light&wt=none&l=htmlmixed&width=776.6875034570694&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=15.5px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522alert-text%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522alert-text%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522alert-text%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522alert-text%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cstrong%253EDanger%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Danger%2520Alert%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E"
+						style="
+							width: 777px;
+							height: 504px;
+							border: 0;
+							transform: scale(1);
+							overflow: hidden;
+						"
+						sandbox="allow-scripts allow-same-origin"
+					>
+					</iframe>
+				</div>
 			</div>
 			<div class="container">
 				<p class="container-title">Outlined Alert</p>
+				<p>Outlined Alert can be used by adding (varient)-outline in class.</p>
 				<div class="alert primary-outline">
 					<div class="alert-text">
 						<strong>Primary!</strong> This is a Primary Alert
@@ -127,6 +145,20 @@
 					<div class="alert-text">
 						<strong>Danger!</strong> This is a Danger Alert
 					</div>
+				</div>
+				<div class="code-snippet">
+					<iframe
+						src="https://carbon.now.sh/embed?bg=rgba%28245%2C245%2C245%2C0%29&t=one-light&wt=none&l=htmlmixed&width=776.6875034570694&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=15.5px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522alert%2520primary-outline%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522alert-text%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522alert%2520warning-outline%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522alert-text%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522alert%2520success-outline%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522alert-text%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522alert%2520danger-outline%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522alert-text%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cstrong%253EDanger%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Danger%2520Alert%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E"
+						style="
+							width: 777px;
+							height: 504px;
+							border: 0;
+							transform: scale(1);
+							overflow: hidden;
+						"
+						sandbox="allow-scripts allow-same-origin"
+					>
+					</iframe>
 				</div>
 			</div>
 		</main>
