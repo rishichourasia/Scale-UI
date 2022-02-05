@@ -4,7 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Badge</title>
+		<title>Snackbar</title>
+
 		<link
 			rel="stylesheet"
 			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -14,7 +15,7 @@
 		<link rel="stylesheet" href="/Styles/style.css" />
 		<link rel="stylesheet" href="/Styles/navbar.css" />
 		<link rel="stylesheet" href="/Styles/sidebar.css" />
-		<link rel="stylesheet" href="badge.css" />
+		<link rel="stylesheet" href="snackbar.css" />
 	</head>
 	<body>
 		<!-- navbar content  -->
@@ -83,80 +84,76 @@
 
 		<!-- main content  -->
 		<main>
-			<h2>Badge</h2>
+			<h2>Snackbar</h2>
 			<p>(Docs in progress)</p>
-			<div class="container-badge">
-				<div class="text">
-					<h4>Text with badge</h4>
-				</div>
-				<div class="badge badge-text"><p>1</p></div>
-			</div>
-			<div class="container-badge">
-				<h4>Text with large badge</h4>
-				<div class="badge large"><span>2</span></div>
-			</div>
-			<div class="container-badge">
-				<h4>Button with a badge on the left</h4>
-				<div class="btn">
-					<button>Badge</button>
-					<span class="badge left">3</span>
-				</div>
-			</div>
-			<div class="container-badge">
-				<h4>Button toggles badge visibility</h4>
-				<div class="toggle">
-					<button class="toggle-btn">Toggle</button>
-					<span class="badge right">4</span>
+			<div class="container">
+				<p class="container-title">On Click SnackBar</p>
+				<div class="snackbar-container">
+					<div class="snackbar">
+						<div class="text">Can't connect server. Retry in 5 seconds.</div>
+						<div class="action">
+							<button>RETRY</button>
+							<i class="fas fa-times fa-sm icon"></i>
+						</div>
+					</div>
+					<div class="buttons">
+						<button class="btn btn-1">Baseline</button>
+						<button class="btn btn-2">Leading</button>
+						<button class="btn btn-3">Stacked</button>
+					</div>
 				</div>
 			</div>
-			<div class="container-badge">
-				<h4>Icon with badge</h4>
-				<div class="toggle">
-					<i class="fas fa-phone fa-lg"></i>
-					<span class="badge icon">5</span>
+			<!-- //Baseline -->
+			<div class="snackbar baseline hidden">
+				<div class="text">Can't connect server. Retry in 5 seconds.</div>
+				<div class="action">
+					<button>RETRY</button>
+					<i
+						class="fas fa-times fa-sm icon"
+						onclick="this.parentElement.parentElement.classList.toggle('hidden')"
+					></i>
 				</div>
 			</div>
-			<div class="container-badge">
-				<h4>Avatar with badge</h4>
-				<div class="toggle">
-					<img
-						class="avatar"
-						src="/assets/Avatar imgs/avatar img-1.png"
-						alt="avatar-img"
-					/>
-					<p class="badge badge-avatar">6</p>
+
+			<!-- leading  -->
+			<div class="snackbar leading hidden">
+				<div class="text">Can't connect server. Retry in 5 seconds.</div>
+				<div class="action">
+					<button>RETRY</button>
+					<i
+						class="fas fa-times fa-sm icon"
+						onclick="this.parentElement.parentElement.classList.toggle('hidden')"
+					></i>
 				</div>
 			</div>
-			<div class="container-badge">
-				<h4>Avatar with badge</h4>
-				<div class="toggle">
-					<img
-						class="avatar"
-						src="/assets/Avatar imgs/avatar img-1.png"
-						alt="avatar-img"
-					/>
-					<span class="badge online"></span>
-				</div>
-			</div>
-			<div class="container-badge">
-				<h4>Avatar with badge</h4>
-				<div class="toggle">
-					<img
-						class="avatar"
-						src="/assets/Avatar imgs/avatar img-1.png"
-						alt="avatar-img"
-					/>
-					<span class="badge offline"></span>
+			<!-- stacked  -->
+			<div class="snackbar stacked hidden">
+				<div class="text">Can't connect server. Retry in 5 seconds.</div>
+				<div class="action">
+					<button>ADD A NEW LABEL</button>
+					<i
+						class="fas fa-times fa-sm icon"
+						onclick="this.parentElement.parentElement.classList.toggle('hidden')"
+					></i>
 				</div>
 			</div>
 		</main>
-		<!-- main content  -->
 		<script>
-			const toggle = document.querySelector(".toggle-btn");
-			const icon = document.querySelector(".right");
+			const btn1 = document.querySelector(".btn-1");
+			const btn2 = document.querySelector(".btn-2");
+			const btn3 = document.querySelector(".btn-3");
+			const stack1 = document.querySelector(".baseline");
+			const stack2 = document.querySelector(".leading");
+			const stack3 = document.querySelector(".stacked");
 
-			toggle.addEventListener("click", () => {
-				icon.classList.toggle("hidden");
+			btn1.addEventListener("click", () => {
+				stack1.classList.toggle("hidden");
+			});
+			btn2.addEventListener("click", () => {
+				stack2.classList.toggle("hidden");
+			});
+			btn3.addEventListener("click", () => {
+				stack3.classList.toggle("hidden");
 			});
 		</script>
 	</body>

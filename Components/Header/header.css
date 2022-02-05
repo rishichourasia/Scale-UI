@@ -1,0 +1,97 @@
+.container {
+	width: 60%;
+	margin-top: 55px;
+	height: 300px;
+}
+
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+}
+.header-container {
+	height: 100%;
+	overflow: auto;
+	padding-top: 0;
+	margin-top: 15px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* component CSs  */
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	background-color: #464646;
+	width: 100%;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.menu-logo {
+	display: flex;
+	align-items: center;
+	width: 33%;
+	align-items: center;
+	justify-content: space-around;
+	padding: 7px;
+}
+
+.nav p {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.nav-links {
+	width: 35%;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.content {
+	margin: 15px;
+}
+
+.hover {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	width: 40px;
+	height: 40px;
+	justify-content: center;
+	border-radius: 20px;
+}
+
+.hover:hover {
+	background-color: #8d8d8d;
+}
+
+.fixed {
+	position: sticky;
+	top: 0;
+}
+
+.prominent {
+	margin-top: 70px;
+}
+
+.short {
+	display: flex;
+	position: sticky;
+	top: 0;
+	border-radius: 0 0 20px 0;
+	width: 100px;
+	justify-content: space-around;
+}
+
+.short .menu-logo {
+	width: 60%;
+}
+
+.short .hover {
+	width: 60px;
+}
