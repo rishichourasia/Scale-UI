@@ -1,0 +1,19 @@
+.container-title {
+	font-size: 18px;
+	font-family: 500;
+	margin-top: 15px;
+}
+
+.container {
+	margin-bottom: 20px;
+}
+
+main h2 {
+	letter-spacing: -1px;
+}
+
+.heading {
+	font-size: 24px;
+	letter-spacing: -1px;
+	font-weight: 550;
+}

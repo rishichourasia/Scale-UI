@@ -83,20 +83,22 @@
 }
 
 .leading {
-	position: absolute;
+	position: fixed;
 	bottom: 24px;
 	left: 1%;
+	z-index: 1;
 }
 
 .baseline {
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	bottom: 0%;
 	transform: translate(-50%, -50%);
+	z-index: 1;
 }
 
 .stacked {
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	bottom: -3%;
 	transform: translate(-50%, -50%);
@@ -104,6 +106,7 @@
 	align-content: center;
 	align-items: flex-start;
 	height: auto;
+	z-index: 1;
 }
 .stacked .text {
 	margin: 10px 0px 7px 10px;
