@@ -1,0 +1,92 @@
+.chips-container {
+	display: flex;
+	width: 350px;
+	flex-wrap: wrap;
+	margin: 20px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+		rgb(209, 213, 219) 0px 0px 0px 1px inset;
+	height: 7rem;
+	align-content: flex-start;
+	background-color: rgb(250, 250, 250);
+	border-radius: 10px;
+	align-content: center;
+}
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+	margin-top: 10px;
+}
+
+/* components css  */
+
+.chips {
+	margin: 5px;
+	border-radius: 16px;
+	color: white;
+	padding: 7px 12px;
+	margin-right: 10px;
+	height: 30px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.yellow {
+	background-color: rgb(233, 233, 33);
+}
+
+.red {
+	background-color: rgb(255, 65, 65);
+}
+
+.blue {
+	background-color: rgb(93, 93, 255);
+}
+.pink {
+	background-color: rgb(255, 96, 122);
+}
+.black {
+	background-color: rgb(53, 53, 53);
+}
+.grey {
+	background-color: rgb(172, 172, 172);
+}
+
+.stacked {
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: auto;
+}
+
+.delete {
+	cursor: pointer;
+}
+
+.chip-box {
+	height: auto;
+	box-shadow: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.input-box {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: auto;
+	align-items: center;
+}
+
+input {
+	width: 70%;
+	border: none;
+	margin: 15px;
+	background-color: inherit;
+	border-bottom: 1px solid;
+	font-size: 16px;
+}
+
+textarea:focus,
+input:focus {
+	outline: none;
+}
