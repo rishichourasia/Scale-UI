@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Open Sans", sans-serif;
-}
-
-html {
-	background-color: rgb(245, 245, 245);
-}
+@import url("/Components/Alert/alert.css");
+@import url("/Components/Avatar/avatar.css");
+@import url("/Components/Badge/badge.css");
+@import url("/Components/Buttons/button.css");
+@import url("/Components/Cards/cards.css");
+@import url("/Components/Chips/chips.css");
+@import url("/Components/Header/header.css");
+@import url("/Components/Images/images.css");
+@import url("/Components/Input/input.css");
+@import url("/Components/Snackbar/snackbar.css");
