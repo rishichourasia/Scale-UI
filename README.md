@@ -1,5 +1,5 @@
 # Scale UI 
-![Scale UI logo](/assets/logo/logo%20simple%20dark.svg)
+![Scale UI logo](/assets/logo/2.svg)
 #### A lightweight and modular library for developing fast and powerful web interfaces.
 <hr>
    
