@@ -17,6 +17,7 @@ aside {
 	left: 5.5rem;
 	height: 44rem;
 	width: 12rem;
+	overflow: auto;
 }
 
 .sidebar {
