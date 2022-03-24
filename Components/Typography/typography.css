@@ -1,0 +1,87 @@
+.container {
+	width: 80%;
+	margin-top: 15px;
+}
+
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+}
+
+.btn-container {
+	padding: 10px;
+	padding-left: 0;
+	margin-top: 5px;
+	width: 65%;
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+}
+.gap {
+	justify-content: flex-start;
+}
+
+/* component css  */
+.para-text {
+	font-size: 1rem;
+}
+
+.is-5 {
+	font-size: 2.5rem;
+}
+.is-4 {
+	font-size: 2rem;
+}
+.is-3 {
+	font-size: 1.5rem;
+}
+.is-2 {
+	font-size: 1.3rem;
+}
+.is-1 {
+	font-size: 1rem;
+}
+
+.is-left {
+	text-align: left;
+}
+.is-right {
+	text-align: right;
+}
+.is-centre {
+	text-align: center;
+}
+
+.is-dark {
+	color: black;
+}
+.is-grey {
+	color: grey;
+}
+.is-red {
+	color: red;
+}
+.is-blue {
+	color: blue;
+}
+.is-green {
+	color: green;
+}
+.is-semibold {
+	font-weight: 600;
+}
+.is-bold {
+	font-weight: 800;
+}
+.is-underline {
+	text-decoration: underline;
+}
+.is-italic {
+	font-style: italic;
+}
+.is-strikethrough {
+	text-decoration: line-through;
+}
+
+/* component css  */
