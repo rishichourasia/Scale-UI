@@ -1,0 +1,69 @@
+.container {
+	width: 80%;
+	margin-top: 15px;
+}
+
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+}
+
+.list-container {
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+	width: 50%;
+	justify-content: space-between;
+}
+
+.stacked-container {
+	padding: 10px;
+	width: 70%;
+	margin-top: 5px;
+}
+
+/* component css  */
+.style-roman {
+	list-style-type: lower-roman;
+}
+.stacked-list li {
+	margin-bottom: 15px;
+}
+
+.card-horizontal {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid grey;
+	border-radius: 3px;
+	width: 55%;
+	padding: 10px;
+	justify-content: space-between;
+}
+
+.list-items .card-img {
+	width: 150px;
+}
+
+.list-items img {
+	width: 100%;
+}
+.card-contents {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.stacked-list {
+	list-style: none;
+}
+.card-title {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.sub-text {
+	font-size: 1rem;
+	font-weight: 400;
+	color: grey;
+}
+
+/* component css  */
