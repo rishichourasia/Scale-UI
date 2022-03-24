@@ -1,0 +1,121 @@
+:root {
+	--main-bg-color: rgb(248, 248, 248);
+	--primary-color: rgb(46, 46, 46);
+	--light-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+		rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	--dark-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	--light-text-color: white;
+	--dark-text-color: black;
+	--grey-text-color: rgb(92, 92, 92);
+	--outlined-btn-border: 1px solid rgb(46, 46, 46);
+	--light-border: 2px solid rgb(172, 172, 172);
+	--info-card-bg-color: rgb(236, 236, 236);
+	--info-card-light-bg-color: rgb(242, 242, 242);
+	--light-bg-color: rgb(124, 124, 124);
+}
+
+.container {
+	width: 90%;
+	margin-top: 15px;
+}
+
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+}
+
+.btn-container {
+	padding: 10px;
+	padding-left: 0;
+	margin-top: 5px;
+	width: 100%;
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+}
+
+.btn {
+	border: none;
+	background-color: transparent;
+	padding: 7px 16px;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+	font-weight: 500;
+	margin: 10px 13px 10px 13px;
+	transition: all 0.1s;
+}
+
+.btn-primary {
+	background-color: rgb(46, 46, 46);
+	color: white;
+}
+.btn-primary-outlined {
+	background-color: transparent;
+	border: var(--outlined-btn-border);
+	color: var(--dark-text-color);
+}
+/* component css  */
+.nav {
+	margin-top: 0;
+	background-color: var(--main-bg-color);
+	color: var(--dark-text-color);
+	z-index: 1;
+	padding: 10px;
+	padding-right: 25px;
+	box-shadow: var(--light-box-shadow);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-logo {
+	justify-content: flex-start;
+	margin-left: 1rem;
+}
+
+.logo-svg {
+	width: 100%;
+}
+
+.menu-btn {
+	width: 3rem;
+}
+.nav-links {
+	width: 20%;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.hover {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	width: 40px;
+	height: 40px;
+	justify-content: center;
+	border-radius: 20px;
+}
+
+.hover:hover {
+	background-color: #8d8d8d;
+}
+
+@media only screen and (max-width: 780px) {
+	.nav {
+		padding-right: 0;
+	}
+	.nav-btn {
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		margin-left: 25px;
+	}
+	.nav button {
+		margin: 5px;
+		padding: auto;
+	}
+}
+
+/* component css  */
