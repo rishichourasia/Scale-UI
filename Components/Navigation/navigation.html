@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Navigation</title>
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="/Styles/navbar.css" />
+		<link rel="stylesheet" href="/Styles/sidebar.css" />
+		<link rel="stylesheet" href="navigation.css" />
+	</head>
+	<body>
+		<!-- navbar content  -->
+		<nav>
+			<div class="logo">
+				<a href="/index.html"
+					><img src="/assets/logo/scale logo with text.svg" alt="svg-logo"
+				/></a>
+			</div>
+			<div class="nav-contents">
+				<div class="nav-content">
+					<a href="/Components/installation.html">Documentation</a>
+				</div>
+			</div>
+		</nav>
+		<!-- navbar content  -->
+
+		<!-- side bar content  -->
+		<aside>
+			<div class="sidebar">
+				<div class="sidebar-installation">
+					<div class="sidebar-title">
+						<p>Getting Started</p>
+					</div>
+					<div class="sidebar-list">
+						<a href="../installation.html"><p>Usage</p></a>
+					</div>
+				</div>
+				<div class="sidebar-components">
+					<div class="sidebar-title">
+						<p>Components</p>
+					</div>
+					<ul class="sidebar-list">
+						<li class="component-link">
+							<a href="../Avatar/avatar.html">Avatar</a>
+						</li>
+						<li class="component-link">
+							<a href="../Alert/alert.html">Alert</a>
+						</li>
+						<li class="component-link">
+							<a href="../Badge/badge.html">Badge</a>
+						</li>
+						<li class="component-link">
+							<a href="../Buttons/button.html">Button</a>
+						</li>
+						<li class="component-link">
+							<a href="../Cards/cards.html">Card</a>
+						</li>
+						<li class="component-link">
+							<a href="../Images/images.html">Images</a>
+						</li>
+						<li class="component-link">
+							<a href="../Input/input.html">Input</a>
+						</li>
+						<li class="component-link">
+							<a href="../Snackbar/snackbar.html">SnackBar</a>
+						</li>
+						<li class="component-link">
+							<a href="../Header/header.html">Header</a>
+						</li>
+						<li class="component-link">
+							<a href="../Chips/chips.html">Chips</a>
+						</li>
+						<li class="component-link">
+							<a href="../Typography/typography.html">Typography</a>
+						</li>
+						<li class="component-link">
+							<a href="../List/list.html">List</a>
+						</li>
+						<li class="component-link">
+							<a href="../Navigation/navigation.html">Navigation</a>
+						</li>
+						<li class="component-link">
+							<a href="../Modal/modal.html">Modal</a>
+						</li>
+						<li class="component-link">
+							<a href="../Rating/rating.html">Rating</a>
+						</li>
+						<li class="component-link">
+							<a href="../Grid/grid.html">Grid</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+		<!-- side bar content  -->
+		<main>
+			<h2>Navigation</h2>
+			<p>Simple Navigation to implement in desktop projects.</p>
+			<div class="container">
+				<p class="container-title">Desktop Navigation</p>
+				<div class="btn-container">
+					<!-- navbar  -->
+					<header class="nav fixed">
+						<div class="menu-logo">
+							<div class="menu-btn">
+								<img
+									class="logo-svg"
+									src="/assets/logo/logo simple dark.svg"
+									alt="logo-svg"
+								/>
+							</div>
+						</div>
+						<div class="nav-links">
+							<div class="hover">
+								<i class="far fa-heart fa-lg"></i>
+							</div>
+
+							<div class="hover">
+								<i class="far fa-shopping-cart fa-lg"></i>
+							</div>
+
+							<div class="hover">
+								<i class="fas is-dark fa-sign-out-alt fa-lg"></i>
+							</div>
+						</div>
+						<div class="nav-btn">
+							<button class="btn btn-primary">Login</button>
+							<button class="btn btn-primary-outlined">Signup</button>
+						</div>
+					</header>
+					<!-- navbar -->
+				</div>
+				<div class="code-snippet">
+					<iframe
+						src="https://carbon.now.sh/embed?bg=rgba%28245%2C245%2C245%2C0%29&t=one-light&wt=none&l=htmlmixed&width=809.5000009536743&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=15.5px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cheader%2520class%253D%2522nav%2520fixed%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522menu-logo%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522menu-btn%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cimg%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509class%253D%2522logo-svg%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509src%253D%2522%252Fassets%252Flogo%252Flogo%2520simple%2520dark.svg%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%2509alt%253D%2522logo-svg%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522nav-links%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522hover%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522hover%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-shopping-cart%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522hover%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520is-dark%2520fa-sign-out-alt%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522nav-btn%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ELogin%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary-outlined%2522%253ESignup%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253C%252Fheader%253E"
+						style="
+							width: 810px;
+							height: 684px;
+							border: 0;
+							transform: scale(1);
+							overflow: hidden;
+						"
+						sandbox="allow-scripts allow-same-origin"
+					>
+					</iframe>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
