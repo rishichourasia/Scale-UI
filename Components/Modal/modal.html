@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Modal</title>
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="/Styles/navbar.css" />
+		<link rel="stylesheet" href="/Styles/sidebar.css" />
+		<link rel="stylesheet" href="modal.css" />
+	</head>
+	<body>
+		<!-- navbar content  -->
+		<nav>
+			<div class="logo">
+				<a href="/index.html"
+					><img src="/assets/logo/scale logo with text.svg" alt="svg-logo"
+				/></a>
+			</div>
+			<div class="nav-contents">
+				<div class="nav-content">
+					<a href="/Components/installation.html">Documentation</a>
+				</div>
+			</div>
+		</nav>
+		<!-- navbar content  -->
+
+		<!-- side bar content  -->
+		<aside>
+			<div class="sidebar">
+				<div class="sidebar-installation">
+					<div class="sidebar-title">
+						<p>Getting Started</p>
+					</div>
+					<div class="sidebar-list">
+						<a href="../installation.html"><p>Usage</p></a>
+					</div>
+				</div>
+				<div class="sidebar-components">
+					<div class="sidebar-title">
+						<p>Components</p>
+					</div>
+					<ul class="sidebar-list">
+						<li class="component-link">
+							<a href="../Avatar/avatar.html">Avatar</a>
+						</li>
+						<li class="component-link">
+							<a href="../Alert/alert.html">Alert</a>
+						</li>
+						<li class="component-link">
+							<a href="../Badge/badge.html">Badge</a>
+						</li>
+						<li class="component-link">
+							<a href="../Buttons/button.html">Button</a>
+						</li>
+						<li class="component-link">
+							<a href="../Cards/cards.html">Card</a>
+						</li>
+						<li class="component-link">
+							<a href="../Images/images.html">Images</a>
+						</li>
+						<li class="component-link">
+							<a href="../Input/input.html">Input</a>
+						</li>
+						<li class="component-link">
+							<a href="../Snackbar/snackbar.html">SnackBar</a>
+						</li>
+						<li class="component-link">
+							<a href="../Header/header.html">Header</a>
+						</li>
+						<li class="component-link">
+							<a href="../Chips/chips.html">Chips</a>
+						</li>
+						<li class="component-link">
+							<a href="../Typography/typography.html">Typography</a>
+						</li>
+						<li class="component-link">
+							<a href="../List/list.html">List</a>
+						</li>
+						<li class="component-link">
+							<a href="../Navigation/navigation.html">Navigation</a>
+						</li>
+						<li class="component-link">
+							<a href="../Modal/modal.html">Modal</a>
+						</li>
+						<li class="component-link">
+							<a href="../Rating/rating.html">Rating</a>
+						</li>
+						<li class="component-link">
+							<a href="../Grid/grid.html">Grid</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+		<!-- side bar content  -->
+		<main>
+			<h2>Modal</h2>
+			<p>
+				Modals are positioned over everything else in the document and remove
+				scroll from the page.
+			</p>
+
+			<div class="container">
+				<p class="container-title">Desktop Modal</p>
+				<div class="btn-container">
+					<div class="modal shadow">
+						<span class="card-cross btn-close is-medium">
+							<i class="fas fa-times"></i>
+						</span>
+						<i class="modal-icon is-green fas fa-check-circle"></i>
+						<div class="textbox">
+							<div class="title text-center">Order Placed!</div>
+							<div class="text text-center">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+								iste corporis, maiores dolorum alias non?
+							</div>
+						</div>
+						<div class="btn-horizontal">
+							<button class="btn btn-primary">Close</button>
+						</div>
+					</div>
+				</div>
+				<div class="code-snippet">
+					<iframe
+						src="https://carbon.now.sh/embed?bg=rgba%28245%2C245%2C245%2C0%29&t=one-light&wt=none&l=htmlmixed&width=809.5000009536743&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=15.5px&lh=144%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522modal%2520shadow%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cspan%2520class%253D%2522card-cross%2520btn-close%2520is-medium%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522modal-icon%2520is-green%2520fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522textbox%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522title%2520text-center%2522%253EOrder%2520Placed%21%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522text%2520text-center%2522%253E%250A%2509%2509%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Sunt%250A%2509%2509%2509%2509%2509iste%2520corporis%252C%2520maiores%2520dolorum%2520alias%2520non%253F%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522btn-horizontal%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EClose%253C%252Fbutton%253E%250A%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E"
+						style="
+							width: 810px;
+							height: 415px;
+							border: 0;
+							transform: scale(1);
+							overflow: hidden;
+						"
+						sandbox="allow-scripts allow-same-origin"
+					>
+					</iframe>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
