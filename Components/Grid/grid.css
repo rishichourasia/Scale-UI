@@ -1,0 +1,45 @@
+.container {
+	width: 80%;
+	margin-top: 15px;
+}
+
+.container-title {
+	font-size: 22px;
+	font-family: 500;
+	letter-spacing: -1px;
+}
+
+.btn-container {
+	padding: 10px;
+	padding-left: 0;
+	margin-top: 5px;
+	width: 100%;
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+}
+
+/* component css  */
+.grid-2 {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr;
+}
+.one {
+	background-color: rgb(73, 73, 73);
+	height: 100px;
+}
+.two {
+	background-color: #212121;
+	height: 100px;
+}
+.three {
+	background-color: rgb(211, 211, 211);
+	height: 100px;
+}
+
+.grid-3 {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+}
